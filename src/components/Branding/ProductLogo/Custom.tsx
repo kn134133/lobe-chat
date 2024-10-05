@@ -49,7 +49,7 @@ const CustomImageLogo = memo<Omit<ImageProps, 'alt' | 'src'> & { size: number }>
 );
 
 const Divider = memo<SvgProps & DivProps & { size?: number }>(
-  ({ size = '1em', style, ...rest }) => (
+  ({ size = '0em', style, ...rest }) => (
     <svg
       fill="none"
       height={size}
