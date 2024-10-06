@@ -131,14 +131,7 @@ const NotSupportClient = () => {
         <Typography.Title>{t('notSupportGuide.title')}</Typography.Title>
         <Typography.Text type={'secondary'}>
           <Trans i18nKey={'notSupportGuide.desc'} ns={'file'}>
-            当前部署实例为客户端数据库模式，无法使用文件管理功能。请切换到
-            <Link href={DATABASE_SELF_HOSTING_URL}>服务端数据库部署模式</Link>
-            ，或直接使用官方的
-            <Link
-              href={`${OFFICIAL_URL}?utm_source=${UTM_SOURCE}&utm_medium=client_not_support_file`}
-            >
-              {LOBE_CHAT_CLOUD}
-            </Link>
+            
           </Trans>
         </Typography.Text>
       </Flexbox>
